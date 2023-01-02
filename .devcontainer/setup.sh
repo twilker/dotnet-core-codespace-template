@@ -8,21 +8,6 @@ apt-get install -y \
   sudo \
   zsh
 
-## Instsall nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-
-## Install Docker CE
-curl -fsSL https://get.docker.com | bash
-
-## Update to the latest PowerShell
-curl -sSL https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/install-powershell.sh | bash
-
-## Install Azure Functions Core Tools v3
-wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
-dpkg -i packages-microsoft-prod.deb
-apt-get update
-apt-get install azure-functions-core-tools-3
-
 ## Enable local HTTPS for .NET Core
 dotnet dev-certs https --trust
 

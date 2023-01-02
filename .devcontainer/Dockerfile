@@ -1,5 +1,5 @@
-# Ubuntu 18.04 LTS
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-bionic
+# Latest SDK
+FROM mcr.microsoft.com/dotnet/core/sdk
 
 WORKDIR /home/
 
